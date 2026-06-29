@@ -10,6 +10,7 @@ Implementations of common data structures in C and C++.
 | `LinkedListC++.cpp` | C++ | Singly linked list using structs with constructors (`new`/`delete`) |
 | `LinkedListClass.cpp` | C++ | Singly linked list using a class with encapsulation and destructor |
 | `CircularLinkedList.cpp` | C++ | Circular linked list using a class with insert, delete, and traversal |
+| `LRUCache.cpp` | C++ | LRU Cache implementation using doubly linked list and hash map |
 
 ## Operations Implemented
 
@@ -28,4 +29,5 @@ gcc LinkedList.c -o LinkedList
 g++ LinkedListC++.cpp -o LinkedListCpp
 g++ LinkedListClass.cpp -o LinkedListClass
 g++ CircularLinkedList.cpp -o CircularLinkedList
+g++ LRUCache.cpp -o LRUCache
 ```

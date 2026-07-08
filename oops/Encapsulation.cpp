@@ -1,7 +1,7 @@
 #include <iostream>
-
+    
 class Real{
-    private:
+      private:
         int real; // This is the "secret" data that we want to protect
         int complex; // This is the "secret" data that we want to protect
 

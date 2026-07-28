@@ -13,6 +13,13 @@ This folder contains beginner-friendly C++ programs demonstrating core object-or
 - VirtualDestructor.cpp - explains the importance of virtual destructors in polymorphic hierarchies.
 - CustomNewDeleteImpWithPrimitiveDataType.cpp - illustrates custom memory allocation and deallocation.
 - CustomNewDeleteImpWithCustomDataType.cpp - same concept applied to custom data types.
+- CopyConstructor.cpp - demonstrates how copy constructors initialize objects.
+- CopyAssignmentOperator.cpp - shows how assignment operators behave for class objects.
+- CopyConstructorDynamicMemory.cpp - explains copy semantics when objects manage dynamic memory.
+- SharedPointer.cpp - demonstrates ownership semantics using `std::shared_ptr`.
+- VirtualInheritance.cpp - explains the use of virtual inheritance in diamond hierarchies.
+- customString.cpp - a simple custom string implementation to practice class design.
+- CustomStringFunction.c - a C-style string helper example for comparison with C++ classes.
 
 ## How to compile
 
@@ -26,6 +33,12 @@ Example:
 
 ```bash
 g++ Abstraction.cpp -o Abstraction
+```
+
+If you are compiling a file with C++ standard library features such as `std::shared_ptr`, use:
+
+```bash
+g++ SharedPointer.cpp -o SharedPointer -std=c++11
 ```
 
 ## Purpose
